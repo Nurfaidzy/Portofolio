@@ -1,5 +1,6 @@
 import React from "react";
 import { FaReact, FaLaravel, FaGitAlt } from "react-icons/fa";
+import { SiTailwindcss, SiBootstrap } from "react-icons/si";
 
 const Portopolio = () => {
   return (
@@ -27,7 +28,7 @@ const Portopolio = () => {
                 Technologies I use
               </div>
               <div className="flex justify-center">
-                <div className="flex justify-between laptop:w-[50%] w-[80%]">
+                <div className="flex justify-between laptop:w-[90%] w-[80%]">
                   <div className="">
                     <FaReact className="laptop:text-6xl text-4xl text-cyan-800 " />
                     <p className="flex justify-center font-bold pt-3 text-slate-600 ">
@@ -44,6 +45,18 @@ const Portopolio = () => {
                     <FaGitAlt className="laptop:text-6xl text-4xl text-cyan-800 " />
                     <p className="flex justify-center font-bold pt-3  text-slate-600 ">
                       Git
+                    </p>
+                  </div>
+                  <div>
+                    <SiTailwindcss className="laptop:text-6xl text-4xl text-cyan-800 " />
+                    <p className="flex justify-center font-bold pt-3  text-slate-600 ">
+                      Tailwind
+                    </p>
+                  </div>
+                  <div>
+                    <SiBootstrap className="laptop:text-6xl text-4xl text-cyan-800 " />
+                    <p className="flex justify-center font-bold pt-3  text-slate-600 ">
+                      Bootstrap
                     </p>
                   </div>
                 </div>
