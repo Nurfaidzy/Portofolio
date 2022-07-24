@@ -23,47 +23,54 @@ const Perkenalan = () => {
             web technologies. Creating a website that is light to access,
             provides a comfortable appearance, and the best features.
           </p>
-          <a href="#" className="py-4 font-bold text-cyan-800 flex">
-            Let's Talk
-            <div className="pt-1 pl-3">
-              <BsFillChatSquareTextFill />
-            </div>
-          </a>
+          <div className="laptop:py-12 py-4">
+            <a href="" className="font-bold text-cyan-800 flex">
+              Let's Talk
+              <div className="pt-1 pl-3">
+                <BsFillChatSquareTextFill />
+              </div>
+            </a>
+          </div>
         </div>
         <img
           src={Foto}
           alt="My Picture"
-          className="laptop:pl-[50%] rounded-xl laptop:w-[85%]"
+          className="laptop:pl-[50%] rounded-xl laptop:w-[85%] "
         />
         <div className="laptop:absolute laptop:pl-[70%] laptop:pt-0 pt-8">
           <div className="laptop:pl-[40%]">
             <div className="flex justify-center">
-              <div className="grid laptop:grid-cols-1 grid-cols-3 ">
-                <div className="pt-4">
-                  <BsLinkedin className="text-6xl" />
-                  <a
-                    href="https://www.linkedin.com/in/nurfaidzy-riyamizard-saragih/"
-                    className="font-bold"
-                  >
-                    LinkedIn
-                  </a>
+              <center>
+                <div className="grid laptop:grid-cols-1 grid-cols-3">
+                  <div className="laptop:pt-8  ">
+                    <BsLinkedin className="text-6xl text-cyan-800" />
+                    <a
+                      href="https://www.linkedin.com/in/nurfaidzy-riyamizard-saragih/"
+                      className="font-bold"
+                    >
+                      LinkedIn
+                    </a>
+                  </div>
+                  <div className="laptop:pt-8">
+                    <BsGithub className="text-6xl text-cyan-800" />
+                    <a
+                      href="https://github.com/Nurfaidzy"
+                      className="font-bold"
+                    >
+                      Github
+                    </a>
+                  </div>
+                  <div className="laptop:pt-8">
+                    <BsInstagram className="text-6xl text-cyan-800" />
+                    <a
+                      href="https://www.instagram.com/nurfaidzy/"
+                      className="font-bold"
+                    >
+                      Instagram
+                    </a>
+                  </div>
                 </div>
-                <div className="pt-4">
-                  <BsGithub className="text-6xl" />
-                  <a href="https://github.com/Nurfaidzy" className="font-bold">
-                    Github
-                  </a>
-                </div>
-                <div className="pt-4">
-                  <BsInstagram className="text-6xl" />
-                  <a
-                    href="https://www.instagram.com/nurfaidzy/"
-                    className="font-bold"
-                  >
-                    Instagram
-                  </a>
-                </div>
-              </div>
+              </center>
             </div>
           </div>
         </div>
