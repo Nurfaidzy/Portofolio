@@ -5,7 +5,7 @@ import { SiTailwindcss, SiBootstrap } from "react-icons/si";
 const Portopolio = () => {
   return (
     <>
-      <div className="pt-[10%] ">
+      <div className="pt-[10%]">
         <div className="laptop:flex  bg-white p-4 rounded-xl shadow-xl">
           <div className=" laptop:w-[60%] ">
             <div className="flex laptop:justify-start justify-center">

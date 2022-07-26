@@ -10,7 +10,7 @@ import Foto from "./Img/myff.jpg";
 const Perkenalan = () => {
   return (
     <>
-      <div className="laptop:flex">
+      <div className="laptop:flex" id="About">
         <div className="laptop:absolute">
           <p className="laptop:text-4xl  laptop:pt-0 pt-4 text-2xl font-bold text-slate-500 ">
             Front End Engineer

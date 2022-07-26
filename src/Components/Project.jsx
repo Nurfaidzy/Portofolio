@@ -7,7 +7,10 @@ const Project = () => {
   return (
     <>
       <div className="laptop:py-[10%] py-[20%]">
-        <div className="flex justify-center font-bold laptop:text-4xl text-2xl text-cyan-500">
+        <div
+          className="flex justify-center font-bold laptop:text-4xl text-2xl text-cyan-500"
+          id="Porto"
+        >
           My Project at Here
         </div>
         <div className="py-[5%]">
@@ -25,7 +28,7 @@ const Project = () => {
                 </div>
                 <div className="py-4 flex laptop:justify-start justify-center ">
                   <a
-                    href="#"
+                    href="https://github.com/rg-km/final-project-engineering-66"
                     className="font-bold px-4 text-white bg-cyan-600 py-2 rounded-lg"
                   >
                     Visit Here
@@ -45,7 +48,7 @@ const Project = () => {
                 </div>
                 <div className="py-4 flex laptop:justify-start justify-center ">
                   <a
-                    href="Pikachu Site"
+                    href="https://nurfaidzy.github.io/Picapica/"
                     className="font-bold px-4 text-white bg-cyan-600 py-2 rounded-lg"
                   >
                     Visit Here
@@ -69,7 +72,7 @@ const Project = () => {
                 </div>
                 <div className="py-4 flex laptop:justify-start justify-center ">
                   <a
-                    href="#"
+                    href="Sorry I Cant Show Now"
                     className="font-bold px-4 text-white bg-cyan-600 py-2 rounded-lg"
                   >
                     Visit Here

@@ -14,9 +14,15 @@ const Navbar = () => {
           <h1>Nurfaidzy</h1>
         </div>
         <div className="flex justify-end font-bold pt-3 ">
-          <p className="px-5">Portopolio</p>
-          <p className="px-5">Contact</p>
-          <p className="px-5">About</p>
+          <a href="/#Porto" className="px-5">
+            Portopolio
+          </a>
+          <a href="/#Contact" className="px-5">
+            Contact
+          </a>
+          <a href="/#About" className="px-5">
+            About
+          </a>
         </div>
       </div>
       {/* mobile device */}

@@ -4,7 +4,7 @@ import mypp from "./Img/myff.jpg";
 const Contact = () => {
   return (
     <>
-      <div>
+      <div id="Contact">
         <div className="flex justify-center">
           <img src={mypp} alt="me" className="rounded-full w-32" />
         </div>
