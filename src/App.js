@@ -1,3 +1,4 @@
+import Contact from "./Components/Contact";
 import Navbar from "./Components/Navbar";
 import Perkenalan from "./Components/Perkenalan";
 import Portopolio from "./Components/Portopolio";
@@ -10,6 +11,7 @@ function App() {
       <Perkenalan />
       <Portopolio />
       <Project />
+      <Contact />
     </div>
   );
 }
