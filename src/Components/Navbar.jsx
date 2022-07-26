@@ -15,13 +15,13 @@ const Navbar = () => {
             <h1 className="sabsolute">Nurfaidzy</h1>
           </div>
           <div className="flex justify-end font-bold pt-1 ">
-            <a href="/#Porto" className="px-5">
+            <a href="#Porto" className="px-5">
               Portopolio
             </a>
-            <a href="/#Contact" className="px-5">
+            <a href="#Contact" className="px-5">
               Contact
             </a>
-            <a href="/#About" className="px-5">
+            <a href="#About" className="px-5">
               About
             </a>
           </div>
