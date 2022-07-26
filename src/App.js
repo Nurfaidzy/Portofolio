@@ -9,11 +9,15 @@ function App() {
   return (
     <>
       <div className="px-[10%] laptop:pt-[5%] pb-10 bg-slate-200 h-[100%] text-slate-800">
-        <Navbar />
-        <Perkenalan />
-        <Portopolio />
-        <Project />
-        <Contact />
+        <Perkenalan className="static" />
+        <div className="absolute laptop:top-[10%] top-[5%]">
+          <Navbar />
+        </div>
+        <div className="desktop:pt-[10%] pt-[15%]">
+          <Portopolio />
+          <Project />
+          <Contact />
+        </div>
       </div>
 
       <div className="bg-slate-500 ">

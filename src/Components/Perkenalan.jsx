@@ -10,9 +10,9 @@ import Foto from "./Img/myff.jpg";
 const Perkenalan = () => {
   return (
     <>
-      <div className="laptop:flex" id="About">
+      <div className="laptop:flex laptop:pt-[10%] pt-[30%]" id="About">
         <div className="laptop:absolute">
-          <p className="laptop:text-4xl  laptop:pt-0 pt-4 text-2xl font-bold text-slate-500 ">
+          <p className="laptop:text-4xl  laptop:pt-0 pt-4 text-2xl font-bold text-slate-500  ">
             Front End Engineer
           </p>
           <p className="laptop:text-6xl  text-4xl font-bold text-cyan-600 laptop:w-[50%]  laptop:py-8 py-4 ">
