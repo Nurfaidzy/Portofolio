@@ -109,7 +109,7 @@ const Project = () => {
             <div className="laptop:py-4 py-4 laptop:px-4 px-0">
               <div className="bg-white p-4 rounded-xl shadow-xl">
                 <div className="font-bold flex justify-center pb-4 laptop:text-2xl text-xl text-cyan-600">
-                  Toko
+                  Web Kursus
                 </div>
                 <img
                   src={ks}
