@@ -2,6 +2,8 @@ import React from "react";
 import Carkam from "./Img/Carkam.png";
 import Pika from "./Img/pikachu.png";
 import Sp from "./Img/spserangan.png";
+import Hp from "./Img/tokohp.png";
+import ks from "./Img/kursus.png";
 
 const Project = () => {
   return (
@@ -72,7 +74,55 @@ const Project = () => {
                 </div>
                 <div className="py-4 flex laptop:justify-start justify-center ">
                   <a
-                    href="Sorry I Cant Show Now"
+                    href="https://spserangansiber.000webhostapp.com/"
+                    className="font-bold px-4 text-white bg-cyan-600 py-2 rounded-lg"
+                  >
+                    Visit Here
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div className="laptop:py-4 py-4 laptop:px-4 px-0">
+              <div className="bg-white p-4 rounded-xl shadow-xl">
+                <div className="font-bold flex justify-center pb-4 laptop:text-2xl text-xl text-cyan-600">
+                  Toko
+                </div>
+                <img
+                  src={Hp}
+                  alt="Cyber Attack Diagnosa"
+                  className="rounded-lg pb-4"
+                />
+                <div className="laptop:text-lg text-xs ">
+                  Project ini dibut dengan tujuan melakukan pengkodean dari
+                  design yang telah ada dengan menggunakan react
+                </div>
+                <div className="py-4 flex laptop:justify-start justify-center ">
+                  <a
+                    href="https://nurfaidzy.github.io/FE-TokoHp/"
+                    className="font-bold px-4 text-white bg-cyan-600 py-2 rounded-lg"
+                  >
+                    Visit Here
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div className="laptop:py-4 py-4 laptop:px-4 px-0">
+              <div className="bg-white p-4 rounded-xl shadow-xl">
+                <div className="font-bold flex justify-center pb-4 laptop:text-2xl text-xl text-cyan-600">
+                  Toko
+                </div>
+                <img
+                  src={ks}
+                  alt="Cyber Attack Diagnosa"
+                  className="rounded-lg pb-4"
+                />
+                <div className="laptop:text-lg text-xs ">
+                  Project ini dibut dengan tujuan melakukan pengkodean dari
+                  design yang telah ada dengan menggunakan react
+                </div>
+                <div className="py-4 flex laptop:justify-start justify-center ">
+                  <a
+                    href="https://nurfaidzy.github.io/Website-Kursus---Front-End-/"
                     className="font-bold px-4 text-white bg-cyan-600 py-2 rounded-lg"
                   >
                     Visit Here
