@@ -43,29 +43,29 @@ const Perkenalan = () => {
               <center>
                 <div className="grid laptop:grid-cols-1 grid-cols-3">
                   <div className="laptop:pt-8  ">
-                    <BsLinkedin className="text-6xl text-cyan-800" />
                     <a
                       href="https://www.linkedin.com/in/nurfaidzy-riyamizard-saragih/"
                       className="font-bold"
                     >
+                      <BsLinkedin className="text-6xl text-cyan-800" />
                       LinkedIn
                     </a>
                   </div>
                   <div className="laptop:pt-8">
-                    <BsGithub className="text-6xl text-cyan-800" />
                     <a
                       href="https://github.com/Nurfaidzy"
                       className="font-bold"
                     >
+                      <BsGithub className="text-6xl text-cyan-800" />
                       Github
                     </a>
                   </div>
                   <div className="laptop:pt-8">
-                    <BsInstagram className="text-6xl text-cyan-800" />
                     <a
                       href="https://www.instagram.com/nurfaidzy/"
                       className="font-bold"
                     >
+                      <BsInstagram className="text-6xl text-cyan-800" />
                       Instagram
                     </a>
                   </div>
