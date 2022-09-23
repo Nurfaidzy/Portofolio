@@ -24,7 +24,10 @@ const Perkenalan = () => {
             provides a comfortable appearance, and the best features.
           </p>
           <div className="laptop:py-12 py-4">
-            <a href="" className="font-bold text-cyan-800 flex">
+            <a
+              href="nurfaidzy@gmail.com"
+              className="font-bold text-cyan-800 flex"
+            >
               Let's Talk
               <div className="pt-1 pl-3">
                 <BsFillChatSquareTextFill />
@@ -34,7 +37,7 @@ const Perkenalan = () => {
         </div>
         <img
           src={Foto}
-          alt="My Picture"
+          alt="foto"
           className="laptop:pl-[50%] rounded-xl laptop:w-[85%] "
         />
         <div className="laptop:absolute laptop:pl-[70%] laptop:pt-0 pt-8">

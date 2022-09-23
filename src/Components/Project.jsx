@@ -4,6 +4,7 @@ import Pika from "./Img/pikachu.png";
 import Sp from "./Img/spserangan.png";
 import Hp from "./Img/tokohp.png";
 import ks from "./Img/kursus.png";
+import pk2 from "./Img/pk2.png";
 
 const Project = () => {
   return (
@@ -123,6 +124,30 @@ const Project = () => {
                 <div className="py-4 flex laptop:justify-start justify-center ">
                   <a
                     href="https://nurfaidzy.github.io/Website-Kursus---Front-End-/"
+                    className="font-bold px-4 text-white bg-cyan-600 py-2 rounded-lg"
+                  >
+                    Visit Here
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div className="laptop:py-4 py-4 laptop:px-4 px-0">
+              <div className="bg-white p-4 rounded-xl shadow-xl">
+                <div className="font-bold flex justify-center pb-4 laptop:text-2xl text-xl text-cyan-600">
+                  Pikachu Site V2
+                </div>
+                <img
+                  src={pk2}
+                  alt="Pikachu Site V2"
+                  className="rounded-lg pb-4"
+                />
+                <div className="laptop:text-lg text-xs ">
+                  Project ini dibuat untuk memperbaiki kesalahan pada yang
+                  pertama dengan menambahkan library Seperti redux-saga
+                </div>
+                <div className="py-4 flex laptop:justify-start justify-center ">
+                  <a
+                    href="https://nurfaidzy.github.io/Pokemon_v2/"
                     className="font-bold px-4 text-white bg-cyan-600 py-2 rounded-lg"
                   >
                     Visit Here
