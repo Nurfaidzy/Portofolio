@@ -5,7 +5,7 @@ import { motion } from "framer-motion";
 const Contact = () => {
   return (
     <>
-      <div id="Contact">
+      <div id="Contact" className="pb-[10%]">
         <div className="flex justify-center">
           <motion.img
             whileHover={{ scale: 1.3 }}
@@ -22,10 +22,17 @@ const Contact = () => {
           Pematang Siantar City, North Sumatra, Indonesia
         </p>
         <p className="flex justify-center text-center pt-2 laptop:px-[100px] laptop:text-lg text-sm">
-          I'm Nurfaidzy from STIKOM Tunas Bangsa Pematangsiantar City majoring
-          in INFORMATION SYSTEMS. Born in Pematangsiantar City, on March 12,
-          2000, currently 22 years old. I am personally ambitious, energetic,
-          creative, honest, and responsible for work.
+          I am Nurfaidzy Riyamizard Saragih, a bachelor's degree student from
+          STIKOM Tunas Bangsa Pematangsiantar City majoring in INFORMATION
+          SYSTEMS. I like computer code and know about front-end development
+          using React js. Build responsive websites and provide user services,
+          both the desired data and sent via API. Have experience collaborating
+          with back-end Developers to build a project with development methods
+          that are generally in the company. I know Editor, Cyber Security, and
+          Dev Net fields. I like to learn, be creative, honest, and responsible
+          to work. I am familiar with Adobe software, Visual Studio Code, and
+          Microsoft Office. I hope that based on my knowledge can be helpful to
+          the company.
         </p>
         <p className="flex justify-center text-center pt-2">
           Contact Me at here !
@@ -40,7 +47,6 @@ const Contact = () => {
             Klik Here
           </motion.a>
         </p>
-        <div></div>
       </div>
     </>
   );
