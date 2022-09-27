@@ -24,7 +24,7 @@ const Perkenalan = () => {
           <p className="laptop:text-4xl  laptop:pt-0 pt-4 text-2xl font-bold text-slate-500  ">
             Front End Engineer
           </p>
-          <p className="laptop:text-6xl  text-4xl font-bold text-cyan-600 laptop:w-[50%]  laptop:py-8 py-4 ">
+          <p className="laptop:text-6xl  text-4xl font-bold text-cyan-600 laptop:w-[50%]  laptop:pt-8 pt-4 ">
             Nurfaidzy Riyamizard Saragih
           </p>
           <p className="laptop:w-[40%] laptop:font-bold text-slate-600">
@@ -32,7 +32,7 @@ const Perkenalan = () => {
             web technologies. Creating a website that is light to access,
             provides a comfortable appearance, and the best features.
           </p>
-          <div className="laptop:py-12 py-4">
+          <div className="laptop:pt-12 pt-4">
             <a
               href="nurfaidzy@gmail.com"
               className="font-bold text-cyan-800 flex"

@@ -8,7 +8,7 @@ const Portopolio = () => {
   return (
     <>
       <motion.div
-        className="pt-[10%]"
+        className=""
         initial={{ y: 100, opacity: 0 }}
         whileInView={{ y: 0, opacity: 1 }}
         transition={{ duration: 0.5 }}

@@ -12,7 +12,7 @@ const Project = () => {
     <>
       <div className="laptop:py-[10%] py-[20%]">
         <motion.div
-          className="flex justify-center font-bold laptop:text-4xl text-2xl text-cyan-500"
+          className="flex justify-center font-bold laptop:text-4xl text-2xl text-cyan-500 pt-[10%]"
           id="Porto"
           initial={{ y: 100, opacity: 0 }}
           whileInView={{ y: 0, opacity: 1 }}
