@@ -2,10 +2,18 @@ import React from "react";
 import { FaReact, FaLaravel, FaGitAlt } from "react-icons/fa";
 import { SiTailwindcss, SiBootstrap } from "react-icons/si";
 
+import { motion } from "framer-motion";
+
 const Portopolio = () => {
   return (
     <>
-      <div className="pt-[10%]">
+      <motion.div
+        className="pt-[10%]"
+        initial={{ y: 100, opacity: 0 }}
+        whileInView={{ y: 0, opacity: 1 }}
+        transition={{ duration: 0.5 }}
+        viewport={{ once: true, amount: 0.8 }}
+      >
         <div className="laptop:flex  bg-white p-4 rounded-xl shadow-xl">
           <div className=" laptop:w-[60%] ">
             <div className="flex laptop:justify-start justify-center">
@@ -60,7 +68,7 @@ const Portopolio = () => {
             </div>
           </div>
         </div>
-      </div>
+      </motion.div>
     </>
   );
 };

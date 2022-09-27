@@ -6,12 +6,21 @@ import {
   BsInstagram,
 } from "react-icons/bs";
 import Foto from "./Img/myff.jpg";
+import { motion } from "framer-motion";
 
 const Perkenalan = () => {
   return (
     <>
-      <div className="laptop:flex laptop:pt-[15%] pt-[40%]" id="About">
-        <div className="laptop:absolute">
+      <div className="laptop:flex laptop:pt-[15%] pt-[40%] h-screen" id="About">
+        <motion.div
+          className="laptop:absolute"
+          initial={{ y: 100, opacity: 0 }}
+          whileInView={{ y: 0, opacity: 1 }}
+          transition={{
+            duration: 0.8,
+          }}
+          viewport={{ once: true, amount: 0.8 }}
+        >
           <p className="laptop:text-4xl  laptop:pt-0 pt-4 text-2xl font-bold text-slate-500  ">
             Front End Engineer
           </p>
@@ -34,13 +43,27 @@ const Perkenalan = () => {
               </div>
             </a>
           </div>
-        </div>
-        <img
+        </motion.div>
+        <motion.img
           src={Foto}
           alt="foto"
-          className="laptop:pl-[50%] rounded-xl laptop:w-[85%] "
+          className="laptop:pl-[50%] rounded-xl laptop:w-[85%] h-fit "
+          initial={{ x: 100, opacity: 0 }}
+          whileInView={{ x: 0, opacity: 1 }}
+          transition={{
+            duration: 1,
+          }}
+          viewport={{ once: true, amount: 0.8 }}
         />
-        <div className="laptop:absolute laptop:pl-[70%] laptop:pt-0 pt-8">
+        <motion.div
+          className="laptop:absolute laptop:pl-[70%] laptop:pt-0 pt-8"
+          initial={{ x: 100, opacity: 0 }}
+          whileInView={{ x: 0, opacity: 1 }}
+          transition={{
+            duration: 1,
+          }}
+          viewport={{ once: true, amount: 0.8 }}
+        >
           <div className="laptop:pl-[40%]">
             <div className="flex justify-center">
               <center>
@@ -76,7 +99,7 @@ const Perkenalan = () => {
               </center>
             </div>
           </div>
-        </div>
+        </motion.div>
       </div>
     </>
   );

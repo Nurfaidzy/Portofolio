@@ -1,12 +1,19 @@
 import React from "react";
 import mypp from "./Img/myff.jpg";
+import { motion } from "framer-motion";
 
 const Contact = () => {
   return (
     <>
       <div id="Contact">
         <div className="flex justify-center">
-          <img src={mypp} alt="me" className="rounded-full w-32" />
+          <motion.img
+            whileHover={{ scale: 1.3 }}
+            transition={{ duration: 1 }}
+            src={mypp}
+            alt="me"
+            className="rounded-full w-32 hover:shadow-lg"
+          />
         </div>
         <p className="flex justify-center font-bold laptop:text-2xl text-lg pt-4 text-cyan-700">
           Nurfaidzy Riyamizard Saragih
@@ -24,12 +31,14 @@ const Contact = () => {
           Contact Me at here !
         </p>
         <p className="flex justify-center text-center pt-2 ">
-          <a
+          <motion.a
+            whileHover={{ scale: 1.3 }}
+            transition={{ bounce: 2 }}
             href="mailto:nurfaidzy@gmail.com"
             className="bg-cyan-600 px-4 py-2 rounded-xl font-bold text-white shadow-xl "
           >
             Klik Here
-          </a>
+          </motion.a>
         </p>
         <div></div>
       </div>

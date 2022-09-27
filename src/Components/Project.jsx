@@ -5,20 +5,31 @@ import Sp from "./Img/spserangan.png";
 import Hp from "./Img/tokohp.png";
 import ks from "./Img/kursus.png";
 import pk2 from "./Img/pk2.png";
+import { motion } from "framer-motion";
 
 const Project = () => {
   return (
     <>
       <div className="laptop:py-[10%] py-[20%]">
-        <div
+        <motion.div
           className="flex justify-center font-bold laptop:text-4xl text-2xl text-cyan-500"
           id="Porto"
+          initial={{ y: 100, opacity: 0 }}
+          whileInView={{ y: 0, opacity: 1 }}
+          transition={{ duration: 0.5 }}
+          viewport={{ once: true, amount: 0.8 }}
         >
           My Project at Here
-        </div>
+        </motion.div>
         <div className="py-[5%]">
           <div className="grid laptop:grid-cols-3 grid-cols-1">
-            <div className="laptop:py-4 py-4 laptop:px-4 px-0">
+            <motion.div
+              className="laptop:py-4 py-4 laptop:px-4 px-0"
+              initial={{ y: 100, opacity: 0 }}
+              whileInView={{ y: 0, opacity: 1 }}
+              transition={{ duration: 0.5, delay: 0 }}
+              viewport={{ once: true, amount: 0.8 }}
+            >
               <div className="bg-white p-4 rounded-xl shadow-xl">
                 <div className="font-bold flex justify-center pb-4 laptop:text-2xl text-xl text-cyan-600">
                   Cari Kampus
@@ -38,8 +49,14 @@ const Project = () => {
                   </a>
                 </div>
               </div>
-            </div>
-            <div className="laptop:py-4 py-4 laptop:px-4 px-0">
+            </motion.div>
+            <motion.div
+              className="laptop:py-4 py-4 laptop:px-4 px-0"
+              initial={{ y: 100, opacity: 0 }}
+              whileInView={{ y: 0, opacity: 1 }}
+              transition={{ duration: 0.5, delay: 0.1 }}
+              viewport={{ once: true, amount: 0.8 }}
+            >
               <div className="bg-white p-4 rounded-xl shadow-xl">
                 <div className="font-bold flex justify-center pb-4 laptop:text-2xl text-xl text-cyan-600">
                   Pikachu Site
@@ -58,8 +75,14 @@ const Project = () => {
                   </a>
                 </div>
               </div>
-            </div>
-            <div className="laptop:py-4 py-4 laptop:px-4 px-0">
+            </motion.div>
+            <motion.div
+              className="laptop:py-4 py-4 laptop:px-4 px-0"
+              initial={{ y: 100, opacity: 0 }}
+              whileInView={{ y: 0, opacity: 1 }}
+              transition={{ duration: 0.5, delay: 0.2 }}
+              viewport={{ once: true, amount: 0.8 }}
+            >
               <div className="bg-white p-4 rounded-xl shadow-xl">
                 <div className="font-bold flex justify-center pb-4 laptop:text-2xl text-xl text-cyan-600">
                   Cyber Attack Diagnosa
@@ -82,8 +105,14 @@ const Project = () => {
                   </a>
                 </div>
               </div>
-            </div>
-            <div className="laptop:py-4 py-4 laptop:px-4 px-0">
+            </motion.div>
+            <motion.div
+              className="laptop:py-4 py-4 laptop:px-4 px-0"
+              initial={{ y: 100, opacity: 0 }}
+              whileInView={{ y: 0, opacity: 1 }}
+              transition={{ duration: 0.5, delay: 0.3 }}
+              viewport={{ once: true, amount: 0.8 }}
+            >
               <div className="bg-white p-4 rounded-xl shadow-xl">
                 <div className="font-bold flex justify-center pb-4 laptop:text-2xl text-xl text-cyan-600">
                   Toko
@@ -106,8 +135,14 @@ const Project = () => {
                   </a>
                 </div>
               </div>
-            </div>
-            <div className="laptop:py-4 py-4 laptop:px-4 px-0">
+            </motion.div>
+            <motion.div
+              className="laptop:py-4 py-4 laptop:px-4 px-0"
+              initial={{ y: 100, opacity: 0 }}
+              whileInView={{ y: 0, opacity: 1 }}
+              transition={{ duration: 0.5, delay: 0.4 }}
+              viewport={{ once: true, amount: 0.8 }}
+            >
               <div className="bg-white p-4 rounded-xl shadow-xl">
                 <div className="font-bold flex justify-center pb-4 laptop:text-2xl text-xl text-cyan-600">
                   Web Kursus
@@ -130,8 +165,14 @@ const Project = () => {
                   </a>
                 </div>
               </div>
-            </div>
-            <div className="laptop:py-4 py-4 laptop:px-4 px-0">
+            </motion.div>
+            <motion.div
+              className="laptop:py-4 py-4 laptop:px-4 px-0"
+              initial={{ y: 100, opacity: 0 }}
+              whileInView={{ y: 0, opacity: 1 }}
+              transition={{ duration: 0.5, delay: 0.5 }}
+              viewport={{ once: true, amount: 0.8 }}
+            >
               <div className="bg-white p-4 rounded-xl shadow-xl">
                 <div className="font-bold flex justify-center pb-4 laptop:text-2xl text-xl text-cyan-600">
                   Pikachu Site V2
@@ -154,7 +195,7 @@ const Project = () => {
                   </a>
                 </div>
               </div>
-            </div>
+            </motion.div>
           </div>
         </div>
       </div>
