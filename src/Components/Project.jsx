@@ -5,6 +5,7 @@ import Sp from "./Img/spserangan.png";
 import Hp from "./Img/tokohp.png";
 import ks from "./Img/kursus.png";
 import pk2 from "./Img/pk2.png";
+import sass from "./Img/sass.png";
 import { motion } from "framer-motion";
 
 const Project = () => {
@@ -189,6 +190,32 @@ const Project = () => {
                 <div className="py-4 flex laptop:justify-start justify-center ">
                   <a
                     href="https://nurfaidzy.github.io/Pokemon_v2/"
+                    className="font-bold px-4 text-white bg-cyan-600 py-2 rounded-lg"
+                  >
+                    Visit Here
+                  </a>
+                </div>
+              </div>
+            </motion.div>
+            <motion.div
+              className="laptop:py-4 py-4 laptop:px-4 px-0"
+              initial={{ y: 100, opacity: 0 }}
+              whileInView={{ y: 0, opacity: 1 }}
+              transition={{ duration: 0.5, delay: 0.3 }}
+              viewport={{ once: true, amount: 0.8 }}
+            >
+              <div className="bg-white p-4 rounded-xl shadow-xl">
+                <div className="font-bold flex justify-center pb-4 laptop:text-2xl text-xl text-cyan-600">
+                  Saas Service
+                </div>
+                <img src={sass} alt="sass" className="rounded-lg pb-4" />
+                <div className="laptop:text-lg text-xs ">
+                  Project ini merupakan Slicing yang dilakukan dimana resource
+                  ui diambil dari internet
+                </div>
+                <div className="py-4 flex laptop:justify-start justify-center ">
+                  <a
+                    href="https://nurfaidzy.github.io/Saas-Web-Slicing-with-React/"
                     className="font-bold px-4 text-white bg-cyan-600 py-2 rounded-lg"
                   >
                     Visit Here
